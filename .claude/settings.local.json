@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -u \"lennertovergaauw-pixel:lonoHu49\" https://api.github.com/user)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Redesign homepage to match original mockup *)",
+      "Bash(git merge *)",
+      "Bash(git push *)",
+      "Bash(git commit *)",
+      "mcp__Claude_in_Chrome__navigate"
+    ]
+  }
+}
