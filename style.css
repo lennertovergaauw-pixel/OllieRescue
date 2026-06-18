@@ -47,7 +47,8 @@ img { display: block; max-width: 100%; }
   width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 32px;
   height: 68px; display: flex; align-items: center; justify-content: space-between;
 }
-.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.logo { display: flex; align-items: center; text-decoration: none; }
+.logo-img { height: 44px; width: auto; display: block; }
 .logo-text { font-size: 1.4rem; font-weight: 700; color: #fff; font-style: italic; }
 .nav-links { display: flex; align-items: center; gap: 34px; }
 .nav-links a { text-decoration: none; color: #b0b8cc; font-size: .92rem; font-weight: 500; transition: color .2s; }
