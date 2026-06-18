@@ -13,7 +13,11 @@
       "Bash(git push *)",
       "Bash(git commit *)",
       "mcp__Claude_in_Chrome__navigate",
-      "PowerShell(Get-ChildItem C:\\\\OllieRescue\\\\images\\\\ -ErrorAction SilentlyContinue | Select-Object Name, Length; \"---DOWNLOADS---\"; Get-ChildItem \"$env:USERPROFILE\\\\Downloads\" -ErrorAction SilentlyContinue | Where-Object { $_.LastWriteTime -gt \\(Get-Date\\).AddHours\\(-3\\) -and $_.Extension -match 'jpg|jpeg|png' } | Select-Object Name, LastWriteTime | Sort-Object LastWriteTime)"
+      "PowerShell(Get-ChildItem C:\\\\OllieRescue\\\\images\\\\ -ErrorAction SilentlyContinue | Select-Object Name, Length; \"---DOWNLOADS---\"; Get-ChildItem \"$env:USERPROFILE\\\\Downloads\" -ErrorAction SilentlyContinue | Where-Object { $_.LastWriteTime -gt \\(Get-Date\\).AddHours\\(-3\\) -and $_.Extension -match 'jpg|jpeg|png' } | Select-Object Name, LastWriteTime | Sort-Object LastWriteTime)",
+      "Read(//c/ProgramData/miniconda3/**)",
+      "Bash(where.exe python.exe)",
+      "Bash(where.exe conda *)",
+      "PowerShell($mc = Get-Command magick -ErrorAction SilentlyContinue; if \\($mc\\) { \"magick: $\\($mc.Source\\)\" } else { \"no-magick\" })"
     ]
   }
 }
