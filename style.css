@@ -38,7 +38,16 @@ img { display: block; max-width: 100%; }
 .btn-lg { padding: 15px 38px; font-size: 1.08rem; }
 
 /* ─── NAV ─── */
-.nav { position: sticky; top: 0; z-index: 100; background: var(--dark); box-shadow: 0 2px 16px rgba(0,0,0,.5); }
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: linear-gradient(180deg, #2b3245 0%, #232a3b 45%, #1a2030 100%);
+  box-shadow: 0 3px 18px rgba(0,0,0,.45);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.nav::after {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.18), transparent);
+}
 .nav-inner {
   width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 32px;
   height: 68px; display: flex; align-items: center; justify-content: space-between;
