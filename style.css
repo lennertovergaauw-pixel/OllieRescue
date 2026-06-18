@@ -40,8 +40,8 @@ img { display: block; max-width: 100%; }
 /* ─── NAV ─── */
 .nav {
   position: sticky; top: 0; z-index: 100;
-  background: linear-gradient(180deg, #23262f 0%, #1d2029 60%, #181b22 100%);
-  box-shadow: 0 3px 16px rgba(0,0,0,.45);
+  background: linear-gradient(180deg, #233047 0%, #1e2840 55%, #1a2236 100%);
+  box-shadow: 0 3px 16px rgba(0,0,0,.4);
 }
 .nav-inner {
   width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 32px;
