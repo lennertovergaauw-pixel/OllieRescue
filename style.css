@@ -39,9 +39,9 @@ img { display: block; max-width: 100%; }
 
 /* ─── NAV ─── */
 .nav {
-  position: sticky; top: 0; z-index: 100;
-  background: linear-gradient(180deg, #233047 0%, #1e2840 55%, #1a2236 100%);
-  box-shadow: 0 3px 16px rgba(0,0,0,.4);
+  position: absolute; top: 0; left: 0; right: 0; z-index: 100;
+  background: linear-gradient(180deg, rgba(20,26,44,.80) 0%, rgba(20,26,44,.45) 65%, rgba(20,26,44,.05) 100%);
+  backdrop-filter: blur(2px);
 }
 .nav-inner {
   width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 32px;
